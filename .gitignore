@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+/data/
+
+# Secrets and environment variables
+.env
+*.env
+
+# Embedding cache and binary index files (>100MB)
+cache/
+*.npy
+*.pkl
